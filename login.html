@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>RTRS Passenger Sign In</title>
+    <meta charset="UTF-8">
+    <title>Secure Login Portal</title>
 </head>
 <body>
-  <h1>RTRS - Passenger Sign In</h1>
-  <form action="/signin" method="post">
-    <input type="text" name="mobile" placeholder="10-digit mobile number" required pattern="[0-9]{10}">
-    <input type="password" name="password" placeholder="Password" required minlength="8">
-    <button type="submit">Sign In</button>
-  </form>
+    <h2>SYSTEM ACCESS PORTAL</h2>
+    <form>
+        <label>Username / User ID:</label>
+        <input type="text" id="username">
+        <br><br>
+        <label>Password / Security PIN:</label>
+        <input type="password" id="password">
+    </form>
 </body>
 </html>
